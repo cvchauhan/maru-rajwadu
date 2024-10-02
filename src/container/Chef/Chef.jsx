@@ -18,21 +18,24 @@ const Chef = () => (
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
+            Our Philosophy at Maru Rajwadu.This emphasizes the core values and
+            beliefs behind your restaurant's service and experience.
           </p>
         </div>
         <p className="p__opensans">
-          auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
-          Nulla scelerisque scelerisque congue ac consequat, aliquam molestie
-          lectus eu. Congue iaculis integer curabitur semper sit nunc.
+          At Maru Rajwadu, we believe in serving authentic, flavorful cuisine
+          rooted in tradition, providing our guests with an unforgettable dining
+          experience. Our commitment is to offer high-quality, fresh ingredients
+          and warm hospitality, ensuring that every meal reflects the rich
+          cultural heritage we cherish.
         </p>
       </div>
 
-      <div className="app__chef-sign">
+      {/* <div className="app__chef-sign">
         <p>Kevin Luo</p>
         <p className="p__opensans">Chef & Founder</p>
         <img src={images.sign} alt="sign" />
-      </div>
+      </div> */}
     </div>
   </div>
 );
