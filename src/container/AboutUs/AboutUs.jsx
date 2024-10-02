@@ -17,9 +17,12 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Maru Rajwadu brings the rich heritage of Gujarati and Punjabi royal
+          cuisine to your plate. Our dishes are crafted using traditional
+          recipes and the finest ingredients, offering an authentic dining
+          experience that reflects the warmth and flavors of India's regal past.
+          Join us for a memorable meal where taste and tradition meet in a royal
+          setting.
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -34,9 +37,12 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Since 2014, Maru Rajwadu has been a cherished destination for those
+          seeking authentic Gujarati and Punjabi cuisine. Over the years, we
+          have stayed true to our roots, preserving traditional recipes and
+          offering a royal dining experience. With a commitment to quality and
+          hospitality, we've grown to become a beloved name for food lovers who
+          appreciate the flavors of India's royal past.
         </p>
         <button type="button" className="custom__button">
           Know More

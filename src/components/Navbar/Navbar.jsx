@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="app__navbar-login">
+      <div className="app__navbar-login" style={{ visibility: "hidden" }}>
         <a href="#login" className="p__opensans">
           Log In/ Register
         </a>
