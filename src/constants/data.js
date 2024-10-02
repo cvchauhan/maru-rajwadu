@@ -1,82 +1,82 @@
-import images from './images';
+import images from "./images";
 
-const wines = [
+const punjabi = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: "Paneer 65",
+    price: "₹190",
+    tags: "300 gm",
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: "Rajwadu Special",
+    price: "₹180",
+    tags: "300 gm",
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: "Cheese Angara",
+    price: "₹160",
+    tags: "300 gm",
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: "R.J. Paneer",
+    price: "₹160",
+    tags: "300 gm",
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: "Paneer Patiyala",
+    price: "₹170",
+    tags: "300 gm",
   },
 ];
 
-const cocktails = [
+const chinese = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: "Manchuriyan Fry Rice",
+    price: "₹90",
+    tags: "Rice | Manchuriyans",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Sizwan Fry Rice",
+    price: "₹100",
+    tags: "Rice | Sizwan",
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "Chinese Bhel",
+    price: "₹120",
+    tags: "Chinese | Bhel",
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: "Paneer Chilly Dry",
+    price: "₹130",
+    tags: "Paneer",
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: "Paneer Manchuriyan Dry",
+    price: "₹130",
+    tags: "Paneer | Manchuriyan",
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Bib Gourmond",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Rising Star",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "AA Hospitality",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Outstanding Chef",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { punjabi, chinese, awards };
