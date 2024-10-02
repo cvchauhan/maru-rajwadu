@@ -35,8 +35,11 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          Explore the vibrant essence of Maru Rajwadu through our Photo Gallery.
+          From our beautifully crafted dishes to the warm, rustic ambiance of
+          our restaurant, each image captures the heart of our rich culinary
+          heritage. Discover moments of joy, flavor, and tradition, all under
+          one roof.
         </p>
         <button type="button" className="custom__button">
           View More

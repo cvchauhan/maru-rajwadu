@@ -25,11 +25,10 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
-
-      <div className="app__specialMenu-menu_img">
+      &nbsp;&nbsp;
+      {/* <div className="app__specialMenu-menu_img">
         <img src={images.menu} alt="menu img" />
-      </div>
-
+      </div> */}
       <div className="app__specialMenu-menu_chinese flex__center">
         <p className="app__specialMenu-menu_heading">Chinese</p>
         <div className="app__specialMenu_menu_items">
